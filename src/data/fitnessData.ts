@@ -1,3 +1,9 @@
+import heroStudioImg from '../assets/images/hero_home_fitness_1791559168318.jpg';
+import plankCoreImg from '../assets/images/exercise_plank_core_1791559183391.jpg';
+import kettlebellSquatImg from '../assets/images/exercise_kettlebell_squat_1791559197242.jpg';
+import lungeMobilityImg from '../assets/images/exercise_lunge_mobility_1791559208526.jpg';
+import pushupTempoImg from '../assets/images/exercise_pushup_tempo_1791559219775.jpg';
+
 export type MuscleZone = 'core' | 'lower' | 'upper_push' | 'mobility' | 'full_body';
 
 export interface ExerciseItem {
@@ -50,7 +56,7 @@ export interface SessionHistoryEntry {
   totalSets: number;
 }
 
-export const HERO_STUDIO_IMAGE = '/src/assets/images/hero_home_fitness_1791559168318.jpg';
+export const HERO_STUDIO_IMAGE = heroStudioImg;
 
 export const EXERCISES_CATALOG: ExerciseItem[] = [
   {
@@ -66,7 +72,7 @@ export const EXERCISES_CATALOG: ExerciseItem[] = [
     sets: 3,
     tempo: 'Isométrico',
     equipment: 'Esterilla',
-    imageUrl: '/src/assets/images/exercise_plank_core_1791559183391.jpg',
+    imageUrl: plankCoreImg,
     primaryMuscles: ['Recto Abdominal', 'Transverso Profundo', 'Oblicuos Internos'],
     stabilizerMuscles: ['Serrato Anterior', 'Glúteo Mayor', 'Cuádriceps'],
     cues: [
@@ -89,7 +95,7 @@ export const EXERCISES_CATALOG: ExerciseItem[] = [
     sets: 4,
     tempo: '3-2-1-0',
     equipment: 'Kettlebell 16 kg',
-    imageUrl: '/src/assets/images/exercise_kettlebell_squat_1791559197242.jpg',
+    imageUrl: kettlebellSquatImg,
     primaryMuscles: ['Cuádriceps Vasto Medial', 'Glúteo Mayor'],
     stabilizerMuscles: ['Erectores Espinales', 'Core Anterior', 'Aductores'],
     cues: [
@@ -112,7 +118,7 @@ export const EXERCISES_CATALOG: ExerciseItem[] = [
     sets: 3,
     tempo: '3-1-1-1',
     equipment: 'Peso Corporal',
-    imageUrl: '/src/assets/images/exercise_lunge_mobility_1791559208526.jpg',
+    imageUrl: lungeMobilityImg,
     primaryMuscles: ['Glúteo Medio', 'Cuádriceps', 'Isquiosurales'],
     stabilizerMuscles: ['Psoas Ilíaco', ' Estabilizadores de Tobillo', 'Oblicuos'],
     cues: [
@@ -135,7 +141,7 @@ export const EXERCISES_CATALOG: ExerciseItem[] = [
     sets: 3,
     tempo: '3-1-1-0',
     equipment: 'Esterilla',
-    imageUrl: '/src/assets/images/exercise_pushup_tempo_1791559219775.jpg',
+    imageUrl: pushupTempoImg,
     primaryMuscles: ['Pectoral Mayor', 'Tríceps Braquial', 'Deltoides Anterior'],
     stabilizerMuscles: ['Serrato Anterior', 'Recto Abdominal', 'Glúteos'],
     cues: [
@@ -158,7 +164,7 @@ export const EXERCISES_CATALOG: ExerciseItem[] = [
     sets: 3,
     tempo: '2-2-2-0',
     equipment: 'Esterilla',
-    imageUrl: '/src/assets/images/exercise_plank_core_1791559183391.jpg',
+    imageUrl: plankCoreImg,
     primaryMuscles: ['Transverso Abdominal', 'Oblicuo Externo', 'Flexores de Cadera'],
     stabilizerMuscles: ['Diafragma', 'Suelo Pélvico', 'Dorsal Ancho'],
     cues: [
@@ -181,7 +187,7 @@ export const EXERCISES_CATALOG: ExerciseItem[] = [
     sets: 4,
     tempo: '3-1-1-1',
     equipment: 'Kettlebell 16 kg',
-    imageUrl: '/src/assets/images/exercise_kettlebell_squat_1791559197242.jpg',
+    imageUrl: kettlebellSquatImg,
     primaryMuscles: ['Isquiosurales', 'Glúteo Mayor', 'Erectores Torácicos'],
     stabilizerMuscles: ['Dorsal Ancho', 'Trapecio Medio', 'Agarre Antebrazo'],
     cues: [
