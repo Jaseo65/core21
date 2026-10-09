@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --canvas-stone: #F7F7F3;
+    --surface-white: #FFFFFF;
+    --primary-navy: #18212B;
+    --accent-lime: #B7D84B;
+    --accent-tint: #EDF4D6;
+    --secondary-slate: #6F767D;
+    --stroke-hairline: #E5E7E8;
+  }
+
+  body {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #F7F7F3;
+    color: #18212B;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6, button, .font-display {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}

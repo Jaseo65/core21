@@ -1,0 +1,6 @@
+{
+  "name": "Kinetic Clarity — Entrenamiento Funcional en Casa",
+  "description": "Sistema de entrenamiento funcional de 21 días con temporizador radial de precisión, biomecánica aplicada y diseño minimalista escandinavo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
